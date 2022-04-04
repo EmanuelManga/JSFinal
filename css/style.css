@@ -1,0 +1,94 @@
+.hide {
+  display: none;
+}
+
+#bodyIndex {
+  max-width: 90%;
+  margin: auto auto;
+  margin-bottom: 4%;
+}
+
+.index {
+  margin-bottom: 4%;
+}
+
+.divWrapper {
+  width: 100%;
+  position: fixed;
+  top: 3px;
+  z-index: 9;
+  background-color: #fff;
+}
+.divWrapper .divNav {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  height: fit-content;
+  justify-content: space-between;
+}
+.divWrapper .divNav .categoriaInicio {
+  text-decoration: none;
+  color: #E84C3D;
+  padding-right: 0.5rem;
+}
+.divWrapper .divNav .searchbar {
+  width: 75%;
+}
+.divWrapper .divNav .botonCarrito {
+  width: 40px;
+  height: 32px;
+  margin: auto;
+  border: none;
+}
+
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+.categoryList .categoryItem {
+  display: block;
+  width: 90%;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  background: #E84C3D;
+  border-radius: 1.087em;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.categoryList .ct_item-active {
+  background: #02b875;
+}
+
+.pushbarCarrito {
+  width: 20% !important;
+}
+.pushbarCarrito .divCarrito {
+  margin: auto;
+}
+
+.container {
+  margin-top: 4%;
+}
+
+.contenedorCarrito {
+  margin: 2% 2% 2% 2%;
+}
+
+.comprarContent {
+  width: 80%;
+  margin: 5% auto;
+}
+.comprarContent .fCompra {
+  text-align: center;
+}
+.comprarContent .carritoCompraAside {
+  float: left;
+}
+.comprarContent .formCompraAside {
+  float: left;
+  width: 40%;
+}
+
+/*# sourceMappingURL=style.css.map */
